@@ -22,7 +22,7 @@ node app
 ```
 
 ### Schema
-[schema in recommend project](http://confluence.miningyum.com/pages/viewpage.action?pageId=2392422)
+
 ```json
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
