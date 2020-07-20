@@ -27,7 +27,7 @@ node app
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
     "title": "响应格式",
-    "description": "食安响应格式规范",
+    "description": "响应格式规范",
     "type": "object",
     "properties": {
        "code": {
