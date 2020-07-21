@@ -1,0 +1,24 @@
+{
+  "title": "",
+  "description": "",
+  "json": {
+    "code": "000000",
+    "message": "success",
+    "data": [
+      {
+          "label": "政府抽检",
+          "doneCount": 10,
+          "warningCount": 10,
+          "totalCount": 100,
+          "chinaAreaData": [
+          {
+                  "cp": [],
+                  "name": "杭州",
+                  "count": 10
+          }
+        ],
+          "aboardData": []
+      }
+    ]
+  }
+}

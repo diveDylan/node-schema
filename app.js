@@ -12,7 +12,7 @@ function transferJSONFilesToSchema(folder) {
   let files = fs.readdirSync(folder)
   files.forEach(filename => {
     const data = fs.readFileSync(folder + '/' + filename, 'utf8')
-    transferCore(data, filename)
+    transferCore(JSON.parse(data), filename)
   })
 }
 
@@ -35,9 +35,8 @@ function transferCore(jsonData, filename) {
   schema.type = types(json)
   schema.properties = {}
   schemaProperty(json,schema)
-  console.log(schema)
   fs.writeFileSync(
-    `./schema/${filename}.json`,
+    `./schema/${filename}`,
     JSON.stringify(Object.assign(schema, schemaTemplate), null, '\t')
   )
 }
@@ -62,7 +61,7 @@ function schemaProperty(obj, propertyObj ={}) {
       type: types(obj[0]),
       description: "",
     }
-    schemaProperty(arr[0],propertyObj.properties.item )
+    schemaProperty(obj[0],propertyObj.properties.item )
   }
   return propertyObj
   

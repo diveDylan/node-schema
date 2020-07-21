@@ -1,0 +1,21 @@
+{
+	"title": "首页请求",
+	"description": "dashboard返回schema",
+	"required": [
+		"date"
+	],
+	"type": "object",
+	"properties": {
+		"type": "object",
+		"description": "",
+		"date": {
+			"type": "number",
+			"description": "",
+			"properties": {
+				"type": "number",
+				"description": ""
+			}
+		}
+	},
+	"$schema": "http://json-schema.org/draft-04/schema#"
+}

@@ -2,6 +2,6 @@
   "title": "首页请求",
   "description": "dashboard返回schema",
   "json": {
-    ""
+    "date": 123323232
   }
 }
