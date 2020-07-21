@@ -20,12 +20,12 @@ node app
 ```
 
 ### Schema
-[schema in recommend project](http://confluence.miningyum.com/pages/viewpage.action?pageId=2392422)
+
 ```json
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
     "title": "响应格式",
-    "description": "食安响应格式规范",
+    "description": "响应格式规范",
     "type": "object",
     "properties": {
        "code": {
@@ -47,4 +47,7 @@ node app
         "data"
     ]
 }
+
+
+
 ```
