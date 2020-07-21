@@ -15,9 +15,7 @@ node app
   "title": "schema的title",
   "description": "schema description",
   "json": {
-
   }
-
 }
 ```
 
@@ -49,7 +47,4 @@ node app
         "data"
     ]
 }
-
-
-
 ```

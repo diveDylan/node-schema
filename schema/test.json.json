@@ -1,0 +1,24 @@
+{
+	"required": [
+		"a",
+		"c"
+	],
+	"type": "object",
+	"properties": {
+		"a": {
+			"type": "object",
+			"description": "",
+			"properties": {
+				"a": {
+					"type": "number",
+					"description": ""
+				}
+			}
+		},
+		"c": {
+			"type": "null",
+			"description": ""
+		}
+	},
+	"$schema": "http://json-schema.org/draft-04/schema#"
+}

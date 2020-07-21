@@ -1,5 +1,5 @@
 const types = obj => {
-  const str = Object.prototype.toString.call(this)
+  const str = Object.prototype.toString.call(obj)
   const reg = /\s(.+)(?=\])/
   return str
     .match(reg)[1]
