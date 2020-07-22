@@ -11,13 +11,15 @@
           "warningCount": 10,
           "totalCount": 100,
           "chinaAreaData": [
-          {
-                  "cp": [],
-                  "name": "杭州",
-                  "count": 10
-          }
-        ],
-          "aboardData": []
+            {
+                    "cp": [],
+                    "name": "杭州",
+                    "count": 10
+            }
+          ],
+          "aboardData": [
+            
+          ]
       }
     ]
   }
